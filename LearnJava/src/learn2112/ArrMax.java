@@ -11,6 +11,7 @@ public class ArrMax {
         for(int x=1;x<arr.length;x++) {
             if (max < arr[x])
             max= arr[x];
+
         }
         return max;
     }
