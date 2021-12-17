@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LearnJava/LearnJava.iml" filepath="$PROJECT_DIR$/LearnJava/LearnJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnJava2021/LearnJava2021.iml" filepath="$PROJECT_DIR$/LearnJava2021/LearnJava2021.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectHW.iml" filepath="$PROJECT_DIR$/ProjectHW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdk17Moudle/jdk17Moudle.iml" filepath="$PROJECT_DIR$/jdk17Moudle/jdk17Moudle.iml" />
+    </modules>
+  </component>
+</project>
