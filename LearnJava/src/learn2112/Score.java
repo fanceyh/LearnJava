@@ -1,5 +1,5 @@
 package learn2112;
-
+//评委打分
 import java.util.Scanner;
 
 public class Score {
