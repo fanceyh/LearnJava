@@ -1,5 +1,5 @@
 package learn2112class;
-
+//
 public class phone {
     private String brand;
     private int size;
