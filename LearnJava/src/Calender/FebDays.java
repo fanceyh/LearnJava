@@ -13,6 +13,23 @@ public class FebDays {
         a.add(5,-1);//field可以写成Calender.Date.
         int b=a.get(Calendar.DATE);
         System.out.println(b);
+        int[] e={1,2,3};
+        System.out.println(e[3]);
+        /*
+  2 exceptions
+java.lang.Object
+java.lang.Throwable
+java.lang.Exception
+java.lang.RuntimeException
+java.lang.IndexOutOfBoundsException
+
+java.lang.Object
+java.lang.Throwable
+java.lang.Exception
+java.text.ParseException
+
+
+         */
 
 
     }
