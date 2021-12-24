@@ -1,0 +1,35 @@
+       class ListItr
+        public void add(E e) {
+            checkForComodification();
+
+            try {
+                int i = cursor;
+                ArrayList.this.add(i, e);///////////??????????????this
+                cursor = i + 1;
+                lastRet = -1;
+                expectedModCount = modCount;
+            } catch (IndexOutOfBoundsException ex) {
+                throw new ConcurrentModificationException();
+            }
+        }
+
+-------------------------------------
+ 在java中类名.this得到的是什么?
+
+这个一般在内部类里面用。。类名.this表示 那个类名所代表的类的对象。。。
+
+比如class A {
+public void method（）{
+A.this就是表示A的对象。。在这种情况下和this是一样的
+}
+
+class B {
+void method1() {
+A.this还是表示A的对象。。但是这里是在内部类里面。。所以这里的this就是内部类B的对象了。。但是我们经常会在内部类里面调用外部的东西。。所以就用A.this这种方式就行了
+}
+}
+}
+------------------------------------
+内部类的this指向内部类自己，要想指向外部类，使用"外部类名.this"。
+---------------------------------------------------------------------
+
